@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = bequeue:main
+      [console_scripts]
+      initialize_bequeue_db = bequeue.scripts.initializedb:main
+      
